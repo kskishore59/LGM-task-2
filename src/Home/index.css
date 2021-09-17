@@ -1,0 +1,47 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.nav-container{
+    display: flex;
+    height: 80px;
+    width: 98vw;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: darkmagenta;
+    flex-shrink:inherit;
+    margin: 10px;
+
+}
+
+.nav-button{
+    background-color: floralwhite;
+    border: 0px none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.logo-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 70%;
+}
